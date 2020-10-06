@@ -4,39 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Web Design | freeCodeCamp</title>
+    <style>
+        main{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 20px;;
+        }
+        a{
+            text-decoration: none;
+        }
+        h1{
+            text-transform: capitalize;
+            text-align: center;
+        }
+        article:hover{
+            background-color: rgb(240, 214, 19);
+        }
+        footer, header{
+            height: 50px;
+            background-color: rgb(30, 170, 212);
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>responsive web design projects</h1>
+    </header>
     <main>
         <article>
             <a href="portfolio/index.html">
-                <img src="" alt="">
+                <img src="img/enemuo.jpg" alt="franc enemuo">
                 <h1>personal portfolio page</h1>
             </a>
         </article>
         <article>
             <a href="survey-form/index.html">
-                <img src="" alt="">
+                <img src="img/survey.jpg" alt="our survey form">
                 <h1>embtec survey form</h1>
             </a>
         </article>
         <article>
             <a href="tribute-page/index.html">
-                <img src="" alt="">
+                <img src="img/tribute.png" alt="tribute to mr peter obi">
                 <h1>tribute to my oracle Mr Peter Obi</h1>
             </a>
         </article>
         <article>
             <a href="technical-doc/index.html">
-                <img src="" alt="">
+                <img src="img/tech.jpeg" alt="technical documentation">
                 <h1>programming documentation</h1>
             </a>
         </article>
         <article>
             <a href="landing-page/index.html">
-                <img src="" alt="">
+                <img src="img/landing.png" alt="landing page">
                 <h1>Landing Page</h1>
             </a>
         </article>
     </main>
+    <footer>
+        &copy; <a href="https://www.freecodecamp.org/francode" target="_blank">Franc Enemuo</a> 
+        <script> document.write(new Date().getFullYear()); </script>
+    </footer>
 </body>
 </html>
